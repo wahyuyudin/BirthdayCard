@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.happybirthdaycard.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cake_image_view"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/cake"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/hbd_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Happy Birthday Mom!"
+        android:textSize="35sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="37dp"
+        />
+
+    <TextView
+        android:id="@+id/wyatb_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Wish U all the Best!!"
+        android:textSize="30sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="95dp"
+        android:layout_below="@id/hbd_text_view"
+
+        />
+
+    <TextView
+        android:id="@+id/yuyu_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="From: Yuyu"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="30dp"
+        />
+
+</RelativeLayout>
